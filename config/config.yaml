@@ -1,0 +1,23 @@
+data:
+    train : ../data/train.txt
+    test : ../data/test.txt
+    dev: ../data/dev.txt
+    scibert_model: ../data/scibert_scivocab_uncased/
+    scibert_finetuned_model: ../model/
+
+finetunedmodel:
+    model : ../model/pytorch_model.bin
+    config: ../model/config.json
+    vocab: ../model/
+
+hyperparams:
+     learning_rate: 2e-5
+     epsilon: 1e-8
+     epochs: 3
+     batch_size: 128
+
+
+
+
+
+
